@@ -1,0 +1,129 @@
+section#contact {
+    min-height: 100%;
+    background-image: url('../images/Images/contact-bg.png');
+    background-repeat: no-repeat;
+   background-position: bottom right;
+   margin-bottom: 0;
+   position: relative;
+   font-family: 'LondomMM', sans-serif;
+   background-attachment: fixed;
+}
+
+#contact .wrapper {
+    margin: 0 auto;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    
+}
+
+#contact h2 {
+    font-family: 'TymesLittleCaps', serif;
+}
+
+#contact .social-icon {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#contact form input, textarea {
+    border: none;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact form textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+#contact form input {
+    padding: 10px;
+    color: black;
+}
+
+#contact form input[name="name"] {
+    width: 100%;
+    margin-right: 35px;
+}
+
+#contact form input[name="subject"] {
+    width: 100%;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+    opacity: 1 !important;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+    opacity: 1 !important;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder { /* IE 10+ */
+    color: black;
+    opacity: 1 !important;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder { /* Firefox 18- */ 
+    color: black;
+    opacity: 1 !important;
+}
+
+
+#contact form button {
+    background: white;
+    border: none;
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 769px) {
+    #contact form textarea {
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    #contact .social-icon {
+        display: block;
+    }
+    
+    #contact form input {
+        padding: 10px;
+        display: inline-block;
+    }
+    
+    #contact form input[name="name"] {
+        width: 20%;
+        margin-right: 35px;
+    }
+    
+    #contact form input[name="subject"] {
+        width: 25%;
+    }
+
+
+    #contact a {
+        display: inline-block;
+
+    }
+
+}
